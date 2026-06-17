@@ -1,0 +1,19 @@
+# Business documents — keep off public GitHub
+*.docx
+*.pdf
+*.xlsx
+*.csv
+
+# Old homepage filename (now index.html)
+GHC_Website_Prototype.html
+
+# Internal tooling
+.claude/
+sync-impeccable.sh
+GHC_Website_Email_Setup_Plan.md
+
+# Misc
+.DS_Store
+Thumbs.db
+Admin/
+Annuals/
