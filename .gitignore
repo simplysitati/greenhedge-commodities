@@ -4,16 +4,23 @@
 *.xlsx
 *.csv
 
-# Old homepage filename (now index.html)
+# Old homepage filename (now docs/index.html)
 GHC_Website_Prototype.html
+
+# Misc HTML files not part of the website
+GHC_BusinessCard_Bernard_Spec.html
+GHC_Zoho_WelcomeEmail_Template.html
 
 # Internal tooling
 .claude/
 sync-impeccable.sh
 GHC_Website_Email_Setup_Plan.md
+PRODUCT.md
 
-# Misc
+# System
 .DS_Store
 Thumbs.db
+
+# Other folders
 Admin/
 Annuals/
