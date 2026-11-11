@@ -104,13 +104,9 @@
       height:540px; border-radius:4px;
       display:flex; align-items:center; justify-content:center;
       overflow:hidden; position:relative;
+      background-size:cover; background-position:center top;
     }
-    .founder-img-block::before {
-      content:''; position:absolute; inset:0;
-      background-image:url("images/jsb-co-c4Pb9XIRnps-unsplash.jpg");
-      background-size:cover; background-position:center;
-      opacity:0.4;
-    }
+    .founder-img-block::before { display:none; }
     .founder-monogram {
       position:relative; z-index:2;
       width:120px; height:120px; border-radius:50%;
